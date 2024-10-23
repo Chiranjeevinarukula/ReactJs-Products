@@ -1,0 +1,55 @@
+/* styles.css */
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border: 1px solid #e5e7eb; /* Light gray border */
+    border-radius: 0.5rem; /* Rounded corners */
+    background-color: #fff; /* White background */
+    width: 200px; 
+  }
+  
+  .product-title {
+    flex: auto;
+    font-size: 1.25rem; /* Equivalent to text-lg */
+    font-weight: 600; /* Equivalent to font-semibold */
+    color: #1e293b; /* Equivalent to text-slate-900 */
+  }
+  
+  .product-price {
+    font-size: 1.25rem; /* Equivalent to text-lg */
+    font-weight: 600; /* Equivalent to font-semibold */
+    color: #64748b; /* Equivalent to text-slate-500 */
+  }
+  
+  .product-stock {
+    width: 100%;
+    flex: none;
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    font-weight: 500; /* Equivalent to font-medium */
+    color: #374151; /* Equivalent to text-slate-700 */
+    margin-top: 0.5rem; /* Equivalent to mt-2 */
+  }
+  
+  .product-description {
+    width: 100%;
+    font-size: 1rem; /* Adjust size as needed */
+    color: #4b5563; /* Example color */
+  }
+  
+  .add-to-cart-button {
+    background-color: #2563eb; /* Button background */
+    color: white; /* Button text color */
+    padding: 0.5rem 1rem; /* Button padding */
+    border: none;
+    border-radius: 0.375rem; /* Rounded corners */
+    cursor: pointer;
+    margin-top: 0.5rem; /* Space above button */
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #1d4ed8; /* Darker on hover */
+  }
+  
